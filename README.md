@@ -1,6 +1,5 @@
 # udp_dos
--variable speed udp dos using powershell
--you do not need to run as admin btw
+variable speed udp dos using powershell (non admin)
 
 run with
 # ./path_to/udp_dos.ps1 -speed # -ip x.x.x.x -port #
