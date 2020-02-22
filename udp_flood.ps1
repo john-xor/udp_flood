@@ -36,7 +36,7 @@ $functions = {
     }
 }
 
-for($i=0;$i-lt$jobs;$i++){
+for($i=0;$i -lt $jobs;$i++){
     Start-Job -ArgumentList $ip,$port -InitializationScript $functions -ScriptBlock {
         param([string]$ip, [int32]$port)
         send-it -ip $ip -port $port
@@ -52,7 +52,7 @@ if(($speed%100) -ne 0){
     clear
 }
 
-while($time-gt0){
+while($time -gt 0){
     echo ("Trying to send about " + $speed.ToString() + "mb/s to " + $ip + ":" + $port.ToString() + " for " + $time.ToString() +" more seconds")
     Start-Sleep -Seconds 1
     clear
