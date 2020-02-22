@@ -1,4 +1,4 @@
-# udp_dos
+# udp_flood
 variable speed udp dos using powershell (non admin) where the speed is in mb/s and time is in seconds
 
 run with
