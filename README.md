@@ -1,5 +1,5 @@
 # udp_flood
-variable speed udp dos using powershell (non admin) where the speed is in mb/s and time is in seconds
+variable speed udp flood using powershell (non admin) where the speed is in mb/s and time is in seconds
 
 run with
 # ./path_to/udp_dos.ps1 -speed # -ip x.x.x.x -port \# -time \#
