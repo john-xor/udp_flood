@@ -1,6 +1,6 @@
 ﻿#THE AUTHOR OF THIS SCRIPT IS NOT RESPONSIBLE FOR HOW THE SCRIPT IS USED NOR SYSTEMS USED AGAINST
  
-param([string]$ip="127.0.0.1", [int32]$port=1337, [int32]$speed=100, [int32]$time=60)
+param([string]$ip="127.0.0.1", [int32]$port=80, [int32]$speed=100, [int32]$time=10)
 [void][System.Reflection.Assembly]::LoadWithPartialName("System.Net.Sockets.Socket")
 [void][System.Reflection.Assembly]::LoadWithPartialName("System.Text.Encoding")
 [void][System.Reflection.Assembly]::LoadWithPartialName("System.Math")
